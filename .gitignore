@@ -1,8 +1,11 @@
+
 venv/
 __pycache__/
 *.pyc
 
 models/*.pkl
+!models/similarity_model.pkl
+!models/similarity_vectorizer.pkl
 
 data/*.csv
 
